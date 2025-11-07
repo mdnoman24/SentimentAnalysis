@@ -1,3 +1,16 @@
+## 🧠 Project Description
+
+**Project29 – Full Sentiment Analysis** is a complete end-to-end **data analytics and NLP pipeline** designed to analyze hotel review datasets.  
+It performs **statistical analysis** — including mean, standard deviation, and kurtosis — to evaluate rating consistency and identify **ambiguous hotel ratings** using a dynamic **ε-threshold (epsilon)** approach based on standard deviation.
+
+The project integrates **Natural Language Processing (NLP)** models such as **TextBlob**, **VADER**, and **spaCy** for textual sentiment scoring, enabling both polarity and subjectivity assessment of review content.  
+Data aggregation, feature computation, and visualization are implemented in **Python (Pandas, NumPy, Matplotlib)**, producing analytical outputs such as the **Proportion of Ambiguous Hotels per Star Category**.
+
+All intermediate and final outputs (CSV, Excel, Parquet) are automatically exported into a unified **SQLite database** for structured storage, downstream querying, or visualization in BI tools (e.g., Power BI, Tableau).  
+The notebook-based architecture ensures **reproducibility**, **scalability**, and **flexibility** for extending the analysis to other review-driven or sentiment-based datasets.
+
+
+
 # ⚙️ Installation & Setup Guide
 
 This guide walks you through everything needed to set up and run **Project29 – Full Sentiment Analysis**.
